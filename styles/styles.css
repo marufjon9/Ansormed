@@ -18,22 +18,21 @@
   font-display: swap;
   font-family: "Open Sans Condensed";
   font-weight: 700;
-  src: url("../fonts/OpenSansCondensed-700.woff") format("woff");
+  src: url("../fonts/OpenSansCondensedBold.woff") format("woff2"),
+    url("../fonts/OpenSansCondensedBold.woff2") format("woff");
 }
-
 * {
   box-sizing: border-box;
   margin: 0;
 }
-
 img {
   display: block;
 }
-
 body {
   font-family: "Open Sans Condensed";
+  font-weight: 700;
+  color: #222;
 }
-
 .container {
   width: 1140px;
   margin: 0 auto;
@@ -47,10 +46,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 24px 0 24px 0;
-}
-.site_logo {
-}
-.navbar {
 }
 .navbar_list {
   display: flex;
@@ -73,6 +68,8 @@ body {
   font-size: 15px;
   line-height: 150%;
   letter-spacing: 2px;
+  font-family: "Open Sans Condensed";
+  font-weight: 700;
   color: #fff;
   text-transform: uppercase;
   padding: 12px 24px;
@@ -82,4 +79,79 @@ body {
 }
 
 /* ==== Main Styles ====  */
+
+.site_intro {
+  background-color: #0eb4c1;
+}
+.intro_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro_text {
+  width: 500px;
+  color: #fff;
+}
+.intro_heading {
+  font-size: 36px;
+  line-height: 120%;
+}
+.intro_paragraph {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 16px 0 36px 0;
+}
+.intro-img {
+  padding-top: 29px;
+}
+
+.services {
+  padding: 120px 0;
+}
+
+.services_title {
+  font-size: 36px;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.services_list {
+  padding-left: 0;
+  list-style: none;
+}
+.services_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.services_item:nth-child(4) {
+  margin-bottom: 60px;
+}
+.item_img {
+  margin-right: 64px;
+}
+.services_content {
+  width: 600px;
+}
+.services_heading {
+  font-size: 24px;
+  line-height: 120%;
+}
+.services_text {
+  margin-top: 24px;
+  color: #444;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.services_btn {
+  display: block;
+  margin: 0 auto;
+}
 /* ==== Footer Styles ====  */
