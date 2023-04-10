@@ -149,9 +149,64 @@ body {
   font-size: 16px;
   line-height: 150%;
 }
-
 .services_btn {
   display: block;
   margin: 0 auto;
 }
+.site_article {
+  background-color: #0eb4c1;
+  padding: 64px 0;
+}
+.article_heading {
+  text-align: center;
+  font-size: 36px;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.article_btns {
+  display: flex;
+  justify-content: center;
+}
+.article_btn {
+  display: inline-block;
+  border: 2px solid #ffffff;
+  background-color: #0eb4c1;
+}
+.article_btn:nth-child(2) {
+  margin-left: 40px;
+}
+
 /* ==== Footer Styles ====  */
+
+.site_footer {
+  background-color: #222;
+}
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+.site_logo {
+}
+.footer_list {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+.footer_item {
+  margin-right: 32px;
+}
+.footer_item:nth-child(5) {
+  margin-right: 0;
+}
+.footer_link {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #fff;
+}
